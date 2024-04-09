@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.ad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container input,
+.input-container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-container textarea {
+  height: 100px; /* Вы можете настроить высоту textarea по своему усмотрению */
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
