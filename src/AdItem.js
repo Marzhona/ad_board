@@ -8,7 +8,7 @@ const AdItem = React.memo(({ ad }) => {
   const [editedDescription, setEditedDescription] = useState(ad.description);
 
   const handleDelete = () => {
-    deleteAd(ad.id); // Удаляем объявление по его id
+    deleteAd(ad.id);
   };
 
   const handleEdit = () => {
@@ -16,7 +16,7 @@ const AdItem = React.memo(({ ad }) => {
   };
 
   const handleSave = () => {
-    editAd(ad.id, { title: editedTitle, description: editedDescription }); // Редактируем объявление по его id с новыми данными
+    editAd(ad.id, { title: editedTitle, description: editedDescription });
     setIsEditing(false);
   };
 

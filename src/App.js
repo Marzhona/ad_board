@@ -9,7 +9,7 @@ const App = () => {
   return (
     <AdsProvider>
       <div className="container">
-        <h1>Advertisement Board</h1>
+        
         <div className="form-container">
           <Suspense fallback={<div>Loading...</div>}>
             <AdForm />

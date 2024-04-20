@@ -1,0 +1,41 @@
+.ad-form {
+    width: 400px; /* Ширина формы */
+    margin: 0 auto; /* Центрирование формы по горизонтали */
+    padding: 20px;
+    border: 1px solid #ccc; /* Подводим границу формы */
+    border-radius: 5px; /* Закругляем углы формы */
+  }
+  
+  .ad-form h2 {
+    margin-top: 0; /* Убираем верхний отступ у заголовка */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Отступ между группами полей */
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%; /* Ширина полей занимает всю доступную ширину */
+    padding: 10px; /* Поля вокруг текста */
+    font-size: 16px; /* Размер текста */
+    border: 1px solid #ccc; /* Подводим границу для полей */
+    border-radius: 5px; /* Закругляем углы полей */
+  }
+  
+  button {
+    width: 100%; /* Ширина кнопки занимает всю доступную ширину */
+    padding: 10px; /* Поля вокруг текста */
+    font-size: 16px; /* Размер текста */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none; /* Убираем границу у кнопки */
+    border-radius: 5px; /* Закругляем углы кнопки */
+    cursor: pointer; /* Устанавливаем указатель мыши */
+    transition: background-color 0.3s; /* Плавное изменение цвета фона кнопки при наведении */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+  }
+  
